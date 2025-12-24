@@ -1,0 +1,30 @@
+# Rust
+client/sanctuary-signer/target/
+**/*.rs.bk
+Cargo.lock
+
+# Foundry
+contracts/cache/
+contracts/out/
+contracts/broadcast/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+*.log
+node_modules/
+
